@@ -1,0 +1,199 @@
+.laila-light {
+    font-family: "Laila", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .laila-regular {
+    font-family: "Laila", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .laila-medium {
+    font-family: "Laila", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .laila-semibold {
+    font-family: "Laila", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .laila-bold {
+    font-family: "Laila", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+*{
+  font-family: laila;
+
+}
+
+body {
+  display:flexbox;
+  background-image: url(images/FONDO.png); 
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:scroll; 
+
+}
+
+body.encriptado{
+  background-image: url(images/FONDOflores.png);
+}
+
+body.desencriptado{
+  background-image: url(images/FONDOflores.png);
+}
+
+h1{
+  position:relative;
+  font-weight: 700;
+  text-align: center;
+  margin-top:  50px;
+  margin-bottom: 0;
+  color: rgb(23, 163, 163);
+}  
+
+p{
+  text-transform: uppercase;
+  font-size:small;
+  text-align: center;
+  margin-top: 1px;
+  margin-bottom: 5%;
+  color:rgba(154, 179, 179, 0.808);
+}
+
+#campo-mensaje{
+  font-size: larger;
+  color: white;
+  margin-top: 5%;
+  display: block;
+  text-align: center;
+  text-shadow: 0 0 1em rgb(41, 41, 41), 0 0 0.2em rgb(85, 85, 85);
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none; 
+  border-color: transparent;
+  margin-bottom: 0px;
+  padding: .5em;
+  background-color: transparent;
+}
+
+#copiar{
+  background-color: transparent;
+  width: 100px;
+  margin-right: auto;
+  margin-left: 60%;
+  margin-bottom: 5%;
+  border-color: transparent;
+}
+
+.ladybug{
+  width: 80%;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.ladybug:hover{
+  transform: rotate(20deg);
+}
+
+.ladybug:active{
+  filter: drop-shadow(10px 10px 3px rgba(188, 214, 210, 0.904));
+  -webkit-transform: scale(80%);
+  transform: scale(80%);
+  cursor: zoom-in;
+}
+
+#texto-encriptado{  
+  padding: 1em;
+  font-size: medium;
+  display: block;  
+  text-align: center;
+  width: 50%; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  border-color: transparent;
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+  background-color: rgba(255, 255, 255, 0.021);
+  outline: none;
+}
+
+.btn{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+}
+
+.regadera{
+  display: block;
+  width: 150px;
+  padding-right: 150px;
+  filter: drop-shadow(3px 3px 20px rgba(255, 255, 255, 0.74));
+}
+
+.btnEncriptar{
+  border-style:none;
+  background-color: transparent;
+}
+
+.btnEncriptar:hover{
+  filter: drop-shadow(1px 1px 8px rgba(226, 255, 60, 0.808));
+}
+
+.btnEncriptar:active{
+  transform: rotate(40deg);
+  filter: none;
+}
+
+.regadera2{
+  display: block;
+  width: 150px;
+  filter: drop-shadow(3px 3px 20px rgba(255, 255, 255, 0.74));
+}
+
+.btnDesencriptar{
+  border-style:none;
+  background-color: transparent;
+}
+
+.btnDesencriptar:hover{
+  filter: drop-shadow(1px 1px 8px rgba(226, 255, 60, 0.808));
+}
+
+.btnDesencriptar:active{
+  transform: rotate(-40deg);
+  filter: none;
+}
+
+.secuencia{
+  padding-bottom: 29%;
+  position:fixed;
+  width: 50%;
+}
+
+.logo-footer{
+  margin-top:4%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 20px;
+}
+
+.creacion{
+  margin-top: 10px;
+  color: rgb(58, 10, 148);
+  margin-bottom: 1px;
+}
+

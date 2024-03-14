@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <link rel="stylesheet" href="style.css">
+        <title>Encriptador de texto</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kurale&family=Laila:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    </head>
+
+    <body >
+        <header>
+            <h1>Encriptador de texto</h1>
+            <p class="intro">Esconde tus mensajes con esta herramienta</p>
+        </header>
+    
+        <main class="main">
+            
+            <section>
+                <textarea id="campo-mensaje" class="mensaje"></textarea>                
+                <button id="copiar" class="btnCopiar" onclick="btnCopiar()"><img class="ladybug" src="images/ladybug.png" alt="ladybug"></button>                           
+            </section>  
+
+            <section class="mensajes">               
+                <textarea id="texto-encriptado" class="campo-texto" placeholder="Ingresa tu texto sin mayusculas o acentos"></textarea>                 
+                <div class="btn">         
+                    <button class="btnEncriptar" onclick="btnEncriptar()"><img class="regadera" src="images/regaderastatic.png" alt="regadera-encriptar"></button>                    
+                    <button class="btnDesencriptar" onclick="btnDesencriptar()"><img class="regadera2" src="images/desencriptar.png" alt="regadera-desencriptar"></button>
+                </div>  
+            </section>                  
+
+        </main>
+
+        <footer>
+            <img class="logo-footer"  src="images/alura.svg" alt="logo-alura">
+            <p class="creacion">Priscila Mendoza 2024</p>
+        </footer>
+
+        <script src="app.js"></script>
+    </body>
+</html>
